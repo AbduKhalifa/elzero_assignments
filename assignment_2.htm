@@ -11,7 +11,7 @@
   let letterE = "e";
   let letterO = "O";
 
-  console.log(word.includes(letterZ)); // True
-  console.log(word.startsWith(letterE.toLocaleLowerCase()) || word.startsWith(letterE.toUpperCase())); // True
-  console.log(word.endsWith(letterO.toLocaleLowerCase()) || word.endsWith(letterO.toUpperCase())); // True
+  console.log(word.toLowerCase().includes(letterZ)); // True
+  console.log(word.toLowerCase().startsWith(letterE)); // True
+  console.log(word.toLowerCase().endsWith(letterO.toLowerCase())); // True
 </script>
